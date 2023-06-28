@@ -1,0 +1,8 @@
+{
+    "address" : "GB|RM|A|10271328",
+    "homePageUrl": "Support us | Cancer Research UK",
+    "detailsPageUrl" : "https://app.pws.int.cruk.org/support-us/details",
+    "paymentsPageUrl":"https://app.pws.int.cruk.org/support-us/payment",
+    "thankYouPageUrl" : "https://app.pws.int.cruk.org/support-us/thanks",
+    "thankYouMessage" : "Thank you Tester for your donation of"
+}

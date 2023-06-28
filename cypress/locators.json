@@ -1,0 +1,43 @@
+{
+    "donationPage": {
+        "amount": "#amount10",
+        "typeYes": "Yes, this donation is my own money",
+        "typeNo": "//input[@type='radio'][@value='no']",
+        "motivation": "select[data-testid='selectMotivation']",
+        "fundingSource": "#destinationRadioGroup > .qosxO > .sc-kgflAQ > .sc-hHLeRK",
+        "cancerType": "[data-testid='restrictionSelect']",
+        "continue": "Continue",
+        "manage": "#onetrust-accept-btn-handler"
+    },
+    "detailsPage": {
+        "title": "select[data-testid='title']",
+        "foreName": "#forename",
+        "surName": "#surname",
+        "email": "#emailAddress",
+        "phoneNumber": "#phoneNumber",
+        "postalCode": "#postalCode",
+        "findAddress": ":nth-child(5) > .sc-hKMtZM > .sc-dkzDqf",
+        "selectAddress": "#addressSelection",
+        "emailOption": "//*[@name='emailOptIn'][@value='no']",
+        "continueBtn": "//button[@type='submit']",
+        "backBtn": "//button[@type='submit']/preceding-sibling::button"
+        
+    },
+    "paymentsPage": {
+        "card": "#bt0[value='bt']",
+        "cardHolderName": "#cardholderName",
+        "frameCardNumber": "#braintree-hosted-field-number",
+        "frameCardExpiration": "#braintree-hosted-field-expirationDate",
+        "frameCardCvv": "#braintree-hosted-field-cvv",
+        "cardNumber": "#credit-card-number",
+        "expiry": "#expiration",
+        "cvv": "#cvv",
+        "completeBtn": "Complete my donation",
+        "optInGiftAided": "#giftAid1[value=yes]"
+    },
+    "thankYouPage": {
+        "thankYou": "//div[contains(@class, 'MaxWidth')]//p[@data-copy-type='default-copy']/preceding::h2",
+        "giftReference": "div.sc-bjUoiL p strong"
+    }
+
+}
